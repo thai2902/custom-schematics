@@ -1,0 +1,63 @@
+{
+  "schematics": {
+    "application": {
+      "factory": "./crlf-4space/application",
+      "schema": "./crlf-4space/application/schema.json",
+      "description": "Create an Angular application."
+    },
+    "class": {
+      "aliases": [ "cl" ],
+      "factory": "./crlf-4space/class",
+      "description": "Create a class.",
+      "schema": "./crlf-4space/class/schema.json"
+    },
+    "component": {
+      "aliases": [ "c" ],
+      "factory": "./crlf-4space/component",
+      "description": "Create an Angular component.",
+      "schema": "./crlf-4space/component/schema.json"
+    },
+    "directive": {
+      "aliases": [ "d" ],
+      "factory": "./crlf-4space/directive",
+      "description": "Create an Angular directive.",
+      "schema": "./crlf-4space/directive/schema.json"
+    },
+    "enum": {
+      "aliases": [ "e" ],
+      "factory": "./crlf-4space/enum",
+      "description": "Create an enumeration.",
+      "schema": "./crlf-4space/enum/schema.json"
+    },
+    "guard": {
+      "aliases": [ "g" ],
+      "factory": "./crlf-4space/guard",
+      "description": "Create a guard.",
+      "schema": "./crlf-4space/guard/schema.json"
+    },
+    "interface": {
+      "aliases": [ "i" ],
+      "factory": "./crlf-4space/interface",
+      "description": "Create an interface.",
+      "schema": "./crlf-4space/interface/schema.json"
+    },
+    "module": {
+      "aliases": [ "m" ],
+      "factory": "./crlf-4space/module",
+      "description": "Create an Angular module.",
+      "schema": "./crlf-4space/module/schema.json"
+    },
+    "pipe": {
+      "aliases": [ "p" ],
+      "factory": "./crlf-4space/pipe",
+      "description": "Create an Angular pipe.",
+      "schema": "./crlf-4space/pipe/schema.json"
+    },
+    "service": {
+      "aliases": [ "s" ],
+      "factory": "./crlf-4space/service",
+      "description": "Create an Angular service.",
+      "schema": "./crlf-4space/service/schema.json"
+    }
+  }
+}
