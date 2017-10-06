@@ -1,0 +1,9 @@
+{
+  "license": "MIT",
+  "name": "tl-schematics",
+  "peerDependencies": {
+    "@angular-devkit/schematics": "0.0.26"
+  },
+  "schematics": "./collection.json",
+  "version": "0.0.1"
+}

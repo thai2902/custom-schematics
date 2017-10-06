@@ -1,0 +1,8 @@
+{
+  "name": "tl-collections",
+  "version": "0.0.2",
+  "description": "Custom collections for Angular CLI",
+  "author": "Thai Le",
+  "schematics": "./collection.json",
+  "license": "ISC"
+}
